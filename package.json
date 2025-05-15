@@ -1,0 +1,30 @@
+{
+  "name": "social-media-api",
+  "version": "1.0.0",
+  "description": "A backend social media API with JWT authentication and RBAC",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "express",
+    "mongodb",
+    "rbac",
+    "jwt",
+    "social-media",
+    "api"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.4",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
